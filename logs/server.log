@@ -1,0 +1,1712 @@
+2021-12-23 17:24:54 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:24:54 DEBUG Entities found : 1
+2021-12-23 17:24:54 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:24:54 DEBUG Entities found : 1
+2021-12-23 17:24:54 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:24:54 DEBUG Entities found : 1
+2021-12-23 17:24:54 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:24:54 DEBUG Entities found : 0
+2021-12-23 17:25:22 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:25:22 DEBUG Entities found : 2
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:25:22 DEBUG Entities found : 1
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:25:22 DEBUG Entities found : 1
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:25:22 DEBUG Entities found : 0
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:25:22 DEBUG Entities found : 1
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:25:22 DEBUG Entities found : 1
+2021-12-23 17:25:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:25:22 DEBUG Entities found : 0
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:26:02 DEBUG Entities found : 1
+2021-12-23 17:26:02 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:26:02 DEBUG Entities found : 2
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:26:02 DEBUG Entities found : 1
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:26:02 DEBUG Entities found : 1
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:26:02 DEBUG Entities found : 0
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:02 DEBUG Entities found : 1
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:02 DEBUG Entities found : 1
+2021-12-23 17:26:02 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:02 DEBUG Entities found : 0
+2021-12-23 17:26:15 DEBUG Finding one with 'SELECT password, displayName FROM `user` WHERE email = ?' and parameters roboform3@hotmail.fr
+2021-12-23 17:26:15 DEBUG Entities found : 0
+2021-12-23 17:26:16 DEBUG Executing 'INSERT INTO `user` (email, password, displayName, transDisplayName) VALUES (?,?,?,?)' with parameters roboform3@hotmail.fr, $2y$12$UdAd00opu/1U.lga8DtaZOuOxtEnvDQK9GJn2DnWjlKSrhw4GbC6u, MA, MA
+2021-12-23 17:26:21 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform3@hotmail.fr
+2021-12-23 17:26:21 DEBUG Entities found : 1
+2021-12-23 17:26:21 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:26:21 DEBUG Entities found : 0
+2021-12-23 17:26:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:25 DEBUG Entities found : 1
+2021-12-23 17:26:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:26:25 DEBUG Entities found : 2
+2021-12-23 17:26:25 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:25 DEBUG Entities found : 1
+2021-12-23 17:26:25 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:26:25 DEBUG Entities found : 1
+2021-12-23 17:26:25 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:25 DEBUG Entities found : 1
+2021-12-23 17:26:25 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:25 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT id FROM `user` WHERE email = ?' and parameters roboform3@hotmail.fr
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE userId = ? AND groupId = ?' and parameters 4, 3
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Executing 'INSERT INTO groupuserlink (userId, groupId) VALUES (?,?)' with parameters 4, 3
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:26:30 DEBUG Entities found : 3
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:30 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:30 DEBUG Entities found : 1
+2021-12-23 17:26:31 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:26:31 DEBUG Entities found : 1
+2021-12-23 17:26:31 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:31 DEBUG Entities found : 1
+2021-12-23 17:26:31 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:31 DEBUG Entities found : 1
+2021-12-23 17:26:31 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:31 DEBUG Entities found : 0
+2021-12-23 17:26:34 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:26:34 DEBUG Entities found : 1
+2021-12-23 17:26:34 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:34 DEBUG Entities found : 1
+2021-12-23 17:26:34 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:34 DEBUG Entities found : 1
+2021-12-23 17:26:34 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:34 DEBUG Entities found : 0
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:26:35 DEBUG Entities found : 3
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:35 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:35 DEBUG Entities found : 1
+2021-12-23 17:26:37 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:26:37 DEBUG Entities found : 1
+2021-12-23 17:26:37 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:37 DEBUG Entities found : 1
+2021-12-23 17:26:37 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:37 DEBUG Entities found : 1
+2021-12-23 17:26:37 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:37 DEBUG Entities found : 0
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:38 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:26:38 DEBUG Entities found : 3
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:38 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:38 DEBUG Entities found : 1
+2021-12-23 17:26:44 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:26:44 DEBUG Entities found : 1
+2021-12-23 17:26:44 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:26:44 DEBUG Entities found : 1
+2021-12-23 17:26:44 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:44 DEBUG Entities found : 1
+2021-12-23 17:26:44 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:26:44 DEBUG Entities found : 0
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:27:32 DEBUG Entities found : 3
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:32 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:27:32 DEBUG Entities found : 1
+2021-12-23 17:27:33 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:27:33 DEBUG Entities found : 1
+2021-12-23 17:27:33 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:27:33 DEBUG Entities found : 3
+2021-12-23 17:27:33 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:27:33 DEBUG Entities found : 1
+2021-12-23 17:27:33 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:27:33 DEBUG Entities found : 1
+2021-12-23 17:27:33 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:27:33 DEBUG Entities found : 1
+2021-12-23 17:27:33 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:27:34 DEBUG Entities found : 1
+2021-12-23 17:27:34 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:27:34 DEBUG Entities found : 1
+2021-12-23 17:34:44 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:34:44 DEBUG Entities found : 1
+2021-12-23 17:34:44 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:44 DEBUG Entities found : 1
+2021-12-23 17:34:44 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:44 DEBUG Entities found : 1
+2021-12-23 17:34:44 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:44 DEBUG Entities found : 0
+2021-12-23 17:34:46 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:34:46 DEBUG Entities found : 1
+2021-12-23 17:34:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:46 DEBUG Entities found : 1
+2021-12-23 17:34:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:46 DEBUG Entities found : 1
+2021-12-23 17:34:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:46 DEBUG Entities found : 0
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:49 DEBUG Entities found : 0
+2021-12-23 17:34:49 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:34:49 DEBUG Entities found : 3
+2021-12-23 17:34:49 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:49 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 2, 5
+2021-12-23 17:34:49 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 2, 2
+2021-12-23 17:34:49 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 2, 3
+2021-12-23 17:34:49 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:34:49 DEBUG Entities found : 2
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:49 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:34:49 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 3
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:51 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:34:51 DEBUG Entities found : 1
+2021-12-23 17:34:52 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:34:52 DEBUG Entities found : 1
+2021-12-23 17:34:52 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:52 DEBUG Entities found : 1
+2021-12-23 17:34:52 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:52 DEBUG Entities found : 1
+2021-12-23 17:34:52 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:52 DEBUG Entities found : 1
+2021-12-23 17:34:52 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 4
+2021-12-23 17:34:52 DEBUG Entities found : 0
+2021-12-23 17:34:53 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:34:53 DEBUG Entities found : 1
+2021-12-23 17:34:53 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:53 DEBUG Entities found : 1
+2021-12-23 17:34:53 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:53 DEBUG Entities found : 1
+2021-12-23 17:34:53 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:53 DEBUG Entities found : 1
+2021-12-23 17:34:53 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 4
+2021-12-23 17:34:53 DEBUG Entities found : 0
+2021-12-23 17:34:54 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 4
+2021-12-23 17:34:54 DEBUG Entities found : 0
+2021-12-23 17:34:54 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:54 DEBUG Entities found : 1
+2021-12-23 17:34:54 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 4
+2021-12-23 17:34:54 DEBUG Entities found : 0
+2021-12-23 17:34:56 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:34:56 DEBUG Entities found : 2
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:34:56 DEBUG Entities found : 0
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 2, 2
+2021-12-23 17:34:56 DEBUG Entities found : 1
+2021-12-23 17:34:56 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:34:56 DEBUG Entities found : 0
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:18 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:36:18 DEBUG Entities found : 3
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:18 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:18 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 2
+2021-12-23 17:36:19 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 2
+2021-12-23 17:36:19 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:36:19 DEBUG Entities found : 3
+2021-12-23 17:36:19 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 3, 4
+2021-12-23 17:36:19 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 3, 2
+2021-12-23 17:36:19 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 3, 3
+2021-12-23 17:36:19 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:36:19 DEBUG Entities found : 2
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:19 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:19 DEBUG Entities found : 1
+2021-12-23 17:36:21 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:36:22 DEBUG Entities found : 2
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:22 DEBUG Entities found : 0
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 3, 2
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:22 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:36:22 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 3, 3
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:23 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:23 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 3, 4
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:25 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:36:25 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:36:29 DEBUG Entities found : 3
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:29 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:29 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 3
+2021-12-23 17:36:30 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 3
+2021-12-23 17:36:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:36:30 DEBUG Entities found : 3
+2021-12-23 17:36:30 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 4, 4
+2021-12-23 17:36:30 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 4, 2
+2021-12-23 17:36:30 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 4, 3
+2021-12-23 17:36:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:36:30 DEBUG Entities found : 2
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:30 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:30 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 3
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:32 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:32 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 3
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:33 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:33 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 4
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 4
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:34 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:36:34 DEBUG Entities found : 1
+2021-12-23 17:36:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:36:35 DEBUG Entities found : 1
+2021-12-23 17:36:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:36:35 DEBUG Entities found : 1
+2021-12-23 17:36:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:35 DEBUG Entities found : 1
+2021-12-23 17:36:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:36:35 DEBUG Entities found : 1
+2021-12-23 17:36:35 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:35 DEBUG Entities found : 1
+2021-12-23 17:36:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:36:36 DEBUG Entities found : 1
+2021-12-23 17:36:36 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:36:36 DEBUG Entities found : 0
+2021-12-23 17:36:36 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:36:36 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:38:06 DEBUG Entities found : 2
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:06 DEBUG Entities found : 0
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 2
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:06 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:06 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 3
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:08 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:08 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 4
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:09 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:09 DEBUG Entities found : 1
+2021-12-23 17:38:11 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:11 DEBUG Entities found : 1
+2021-12-23 17:38:11 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:11 DEBUG Entities found : 1
+2021-12-23 17:38:11 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:11 DEBUG Entities found : 1
+2021-12-23 17:38:11 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:11 DEBUG Entities found : 1
+2021-12-23 17:38:11 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:11 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 0
+2021-12-23 17:38:12 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:38:12 DEBUG Entities found : 2
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 0
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 2
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:12 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:12 DEBUG Entities found : 1
+2021-12-23 17:38:13 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:13 DEBUG Entities found : 1
+2021-12-23 17:38:13 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:13 DEBUG Entities found : 1
+2021-12-23 17:38:13 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:13 DEBUG Entities found : 1
+2021-12-23 17:38:13 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:13 DEBUG Entities found : 1
+2021-12-23 17:38:13 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:13 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 0
+2021-12-23 17:38:14 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:38:14 DEBUG Entities found : 2
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 0
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 4, 2
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:14 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:14 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:15 DEBUG Entities found : 3
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:15 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:15 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 4
+2021-12-23 17:38:16 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 4
+2021-12-23 17:38:16 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:16 DEBUG Entities found : 3
+2021-12-23 17:38:16 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 5, 3
+2021-12-23 17:38:16 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 5, 4
+2021-12-23 17:38:16 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 5, 2
+2021-12-23 17:38:16 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:38:16 DEBUG Entities found : 2
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:16 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:16 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 5, 3
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:18 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:18 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 5, 4
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:19 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:19 DEBUG Entities found : 1
+2021-12-23 17:38:21 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:21 DEBUG Entities found : 1
+2021-12-23 17:38:21 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:21 DEBUG Entities found : 1
+2021-12-23 17:38:21 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:21 DEBUG Entities found : 1
+2021-12-23 17:38:21 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:21 DEBUG Entities found : 1
+2021-12-23 17:38:21 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:21 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 0
+2021-12-23 17:38:22 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:38:22 DEBUG Entities found : 2
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:22 DEBUG Entities found : 0
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 5, 2
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:22 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:22 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:23 DEBUG Entities found : 3
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:23 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:23 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 5
+2021-12-23 17:38:25 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 5
+2021-12-23 17:38:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:25 DEBUG Entities found : 3
+2021-12-23 17:38:25 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 6, 3
+2021-12-23 17:38:25 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 6, 4
+2021-12-23 17:38:25 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 6, 2
+2021-12-23 17:38:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:38:25 DEBUG Entities found : 2
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:25 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:25 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 6, 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:26 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:26 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 6, 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 6, 3
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:27 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:27 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:28 DEBUG Entities found : 3
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:28 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:28 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 6
+2021-12-23 17:38:29 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 6
+2021-12-23 17:38:29 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:29 DEBUG Entities found : 3
+2021-12-23 17:38:29 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 7, 4
+2021-12-23 17:38:29 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 7, 2
+2021-12-23 17:38:29 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 7, 3
+2021-12-23 17:38:29 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:38:29 DEBUG Entities found : 2
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:29 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:29 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 7, 3
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:30 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:30 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:31 DEBUG Entities found : 3
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:31 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:31 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 7
+2021-12-23 17:38:32 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 7
+2021-12-23 17:38:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:32 DEBUG Entities found : 3
+2021-12-23 17:38:32 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 8, 4
+2021-12-23 17:38:32 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 8, 2
+2021-12-23 17:38:32 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 8, 3
+2021-12-23 17:38:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:38:32 DEBUG Entities found : 2
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:32 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:32 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 8, 3
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:33 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:33 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:34 DEBUG Entities found : 3
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:34 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:34 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 8
+2021-12-23 17:38:35 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 8
+2021-12-23 17:38:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 3
+2021-12-23 17:38:35 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 9, 4
+2021-12-23 17:38:35 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 9, 2
+2021-12-23 17:38:35 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 9, 3
+2021-12-23 17:38:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:38:35 DEBUG Entities found : 2
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 3
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:35 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:35 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 3
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:36 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:36 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 3
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:37 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:38:37 DEBUG Entities found : 1
+2021-12-23 17:38:52 DEBUG Finding one with 'SELECT password, displayName FROM `user` WHERE email = ?' and parameters roboform4@hotmail.fr
+2021-12-23 17:38:52 DEBUG Entities found : 0
+2021-12-23 17:38:52 DEBUG Executing 'INSERT INTO `user` (email, password, displayName, transDisplayName) VALUES (?,?,?,?)' with parameters roboform4@hotmail.fr, $2y$12$H0fcyAlKP3FH4LIO5bkcYuLIYttiNvHCUSnYugzBstpWTnhNlnRE2, Mathis, Mathis
+2021-12-23 17:39:10 DEBUG Finding one with 'SELECT password, displayName FROM `user` WHERE email = ?' and parameters roboform5@hotmail.fr
+2021-12-23 17:39:10 DEBUG Entities found : 0
+2021-12-23 17:39:10 DEBUG Executing 'INSERT INTO `user` (email, password, displayName, transDisplayName) VALUES (?,?,?,?)' with parameters roboform5@hotmail.fr, $2y$12$Clp15W9nd2M5HSlyH1fPbebIpiJouKSitTLdo8mL/5WtRKHeGdDXW, Nicolas, Nicolas
+2021-12-23 17:39:23 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform2@hotmail.fr
+2021-12-23 17:39:23 DEBUG Entities found : 1
+2021-12-23 17:39:32 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform2@hotmail.fr
+2021-12-23 17:39:32 DEBUG Entities found : 1
+2021-12-23 17:39:57 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:39:57 DEBUG Entities found : 2
+2021-12-23 17:39:57 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:39:57 DEBUG Entities found : 1
+2021-12-23 17:39:57 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:39:57 DEBUG Entities found : 1
+2021-12-23 17:39:57 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:39:57 DEBUG Entities found : 1
+2021-12-23 17:39:57 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:39:57 DEBUG Entities found : 1
+2021-12-23 17:40:02 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:40:02 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 4
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:53 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:40:53 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 4
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:54 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:40:54 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 4
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:40:55 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:40:55 DEBUG Entities found : 1
+2021-12-23 17:42:30 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:42:30 DEBUG Entities found : 1
+2021-12-23 17:43:07 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:43:07 DEBUG Entities found : 1
+2021-12-23 17:43:32 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:43:32 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:43:46 DEBUG Entities found : 2
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:43:46 DEBUG Entities found : 0
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 2
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:46 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:43:46 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform2@hotmail.fr
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 9, 3
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:43:57 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:43:57 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:00 DEBUG Entities found : 3
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:00 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:00 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT id FROM `user` WHERE email = ?' and parameters roboform3@hotmail.fr
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE userId = ? AND groupId = ?' and parameters 4, 3
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:05 DEBUG Entities found : 3
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:05 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:05 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT id FROM `user` WHERE email = ?' and parameters roboform4@hotmail.fr
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE userId = ? AND groupId = ?' and parameters 5, 3
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Executing 'INSERT INTO groupuserlink (userId, groupId) VALUES (?,?)' with parameters 5, 3
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:09 DEBUG Entities found : 4
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:09 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:09 DEBUG Entities found : 1
+2021-12-23 17:44:10 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:10 DEBUG Entities found : 1
+2021-12-23 17:44:10 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:10 DEBUG Entities found : 1
+2021-12-23 17:44:10 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:10 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT id FROM `user` WHERE email = ?' and parameters roboform5@hotmail.fr
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE userId = ? AND groupId = ?' and parameters 6, 3
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Executing 'INSERT INTO groupuserlink (userId, groupId) VALUES (?,?)' with parameters 6, 3
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:14 DEBUG Entities found : 5
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:14 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:14 DEBUG Entities found : 1
+2021-12-23 17:44:20 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:20 DEBUG Entities found : 1
+2021-12-23 17:44:20 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:20 DEBUG Entities found : 1
+2021-12-23 17:44:20 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 9
+2021-12-23 17:44:20 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 9
+2021-12-23 17:44:20 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:20 DEBUG Entities found : 5
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:44:20 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:44:20 DEBUG Entities found : 1
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 10, 4
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 10, 6
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 10, 3
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 10, 2
+2021-12-23 17:44:20 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 6, 10, 5
+2021-12-23 17:44:21 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:44:21 DEBUG Entities found : 2
+2021-12-23 17:44:21 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:21 DEBUG Entities found : 1
+2021-12-23 17:44:21 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:21 DEBUG Entities found : 1
+2021-12-23 17:44:21 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:21 DEBUG Entities found : 1
+2021-12-23 17:44:21 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:21 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 10, 3
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:22 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:22 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 10, 4
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:24 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:24 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 10, 4
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 10, 4
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:25 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:25 DEBUG Entities found : 1
+2021-12-23 17:44:26 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:44:26 DEBUG Entities found : 2
+2021-12-23 17:44:26 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:26 DEBUG Entities found : 1
+2021-12-23 17:44:26 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:26 DEBUG Entities found : 1
+2021-12-23 17:44:26 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:26 DEBUG Entities found : 0
+2021-12-23 17:44:26 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:26 DEBUG Entities found : 1
+2021-12-23 17:44:27 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:27 DEBUG Entities found : 1
+2021-12-23 17:44:27 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:27 DEBUG Entities found : 1
+2021-12-23 17:44:27 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 10, 2
+2021-12-23 17:44:27 DEBUG Entities found : 1
+2021-12-23 17:44:27 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:27 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:30 DEBUG Entities found : 5
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:30 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:30 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 10
+2021-12-23 17:44:31 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 10
+2021-12-23 17:44:31 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:31 DEBUG Entities found : 5
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 11, 6
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 11, 2
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 11, 5
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 11, 3
+2021-12-23 17:44:31 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 6, 11, 4
+2021-12-23 17:44:31 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:44:31 DEBUG Entities found : 2
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:31 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:31 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 11, 3
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:32 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:32 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 11, 4
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:33 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:33 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:35 DEBUG Entities found : 5
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:35 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:35 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 11
+2021-12-23 17:44:36 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 11
+2021-12-23 17:44:36 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:36 DEBUG Entities found : 5
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 12, 6
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 12, 4
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 12, 3
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 12, 2
+2021-12-23 17:44:36 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 6, 12, 5
+2021-12-23 17:44:36 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:44:36 DEBUG Entities found : 2
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:36 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:36 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 12, 3
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:37 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:37 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 12, 4
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:38 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:38 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:39 DEBUG Entities found : 5
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:39 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:39 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 12
+2021-12-23 17:44:40 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 12
+2021-12-23 17:44:40 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:40 DEBUG Entities found : 5
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 13, 4
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 13, 6
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 13, 5
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 13, 2
+2021-12-23 17:44:40 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 6, 13, 3
+2021-12-23 17:44:40 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:44:40 DEBUG Entities found : 2
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:40 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:40 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 13, 3
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:41 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:41 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 13, 4
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:42 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:42 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:43 DEBUG Entities found : 5
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:43 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:43 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Executing 'DELETE FROM `result` WHERE tirageId = ?' with parameters 13
+2021-12-23 17:44:44 DEBUG Executing 'DELETE FROM `tirage` WHERE id = ?' with parameters 13
+2021-12-23 17:44:44 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:44:44 DEBUG Entities found : 5
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `tirage` (groupId, number) VALUES (?,0)' with parameters 3
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT `id` FROM `tirage` WHERE `id` = LAST_INSERT_ID()' and parameters 
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 2, 14, 4
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 3, 14, 2
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 4, 14, 3
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 5, 14, 6
+2021-12-23 17:44:44 DEBUG Executing 'INSERT INTO `result` (userId, tirageId, resultId) VALUES (?,?,?)' with parameters 6, 14, 5
+2021-12-23 17:44:44 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 17:44:44 DEBUG Entities found : 2
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:44 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:44 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 3
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 3
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:46 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:44:46 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 4
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 4
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:47 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:44:47 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:44:49 DEBUG Entities found : 2
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:44:49 DEBUG Entities found : 0
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:44:49 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:44:49 DEBUG Entities found : 1
+2021-12-23 17:46:45 DEBUG Finding one with 'SELECT password, transDisplayName, id FROM `user` WHERE email = ?' and parameters roboform@hotmail.fr
+2021-12-23 17:46:45 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:46:46 DEBUG Entities found : 2
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:46:46 DEBUG Entities found : 0
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:46:46 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:46:46 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:47:53 DEBUG Entities found : 2
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:47:53 DEBUG Entities found : 0
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:47:53 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:47:53 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:48:43 DEBUG Entities found : 2
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 4
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 4
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 4
+2021-12-23 17:48:43 DEBUG Entities found : 0
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:48:43 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:48:43 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:49:24 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:49:24 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:50:52 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:50:52 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:30 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:51:30 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE groupId = ?' with parameters 3
+2021-12-23 17:51:36 DEBUG Entities found : 5
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 3
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 5
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 6
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:36 DEBUG Finding one with 'SELECT count(*) FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:51:36 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:51:38 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:51:38 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:19 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:52:19 DEBUG Entities found : 1
+2021-12-23 17:52:45 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:52:45 DEBUG Entities found : 1
+2021-12-23 17:52:45 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:52:45 DEBUG Entities found : 1
+2021-12-23 17:52:45 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:52:45 DEBUG Entities found : 1
+2021-12-23 17:52:45 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:52:45 DEBUG Entities found : 1
+2021-12-23 17:52:45 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:52:45 DEBUG Entities found : 1
+2021-12-23 17:52:46 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:52:46 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:29 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 17:53:29 DEBUG Entities found : 1
+2021-12-23 17:53:30 DEBUG Querying 'SELECT * FROM `user` WHERE id = ?' with parameters 2
+2021-12-23 17:53:30 DEBUG Entities found : 1
+2021-12-23 18:05:24 DEBUG Querying 'SELECT * FROM `user` WHERE id = ?' with parameters 2
+2021-12-23 18:05:24 DEBUG Entities found : 1
+2021-12-23 18:06:10 DEBUG Querying 'SELECT * FROM `user` WHERE id = ?' with parameters 2
+2021-12-23 18:06:10 DEBUG Entities found : 1
+2021-12-23 18:06:31 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 18:06:31 DEBUG Entities found : 1
+2021-12-23 18:07:39 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 18:07:39 DEBUG Entities found : 1
+2021-12-23 18:07:59 DEBUG Finding one with 'SELECT * FROM `user` WHERE id = ?' and parameters 2
+2021-12-23 18:07:59 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:12 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 18:08:12 DEBUG Entities found : 1
+2021-12-23 18:08:14 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ?' with parameters 2
+2021-12-23 18:08:14 DEBUG Entities found : 1
+2021-12-23 18:08:14 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 18:08:14 DEBUG Entities found : 1
+2021-12-23 18:08:14 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 18:08:14 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Querying 'SELECT * FROM `groupuserlink` WHERE userId = ? ORDER BY id DESC' with parameters 2
+2021-12-23 18:08:24 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Finding one with 'SELECT * FROM `group` WHERE id = ?' and parameters 3
+2021-12-23 18:08:24 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Finding one with 'SELECT count(*) FROM `groupuserlink` WHERE groupId = ?' and parameters 3
+2021-12-23 18:08:24 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Finding one with 'SELECT * FROM `tirage` WHERE groupId = ?' and parameters 3
+2021-12-23 18:08:24 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Finding one with 'SELECT * FROM `result` WHERE tirageId = ? AND userId = ?' and parameters 14, 2
+2021-12-23 18:08:24 DEBUG Entities found : 1
+2021-12-23 18:08:24 DEBUG Finding one with 'SELECT displayName FROM `user` WHERE id = ?' and parameters 4
+2021-12-23 18:08:24 DEBUG Entities found : 1

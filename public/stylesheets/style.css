@@ -1,0 +1,24 @@
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24rem;
+    margin-left: -12rem;
+    height: 14rem;
+    margin-top: -6rem;
+}
+
+.register-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24rem;
+    margin-left: -12rem;
+    height: 24rem;
+    margin-top: -12rem;
+}
+
+.grayed {
+    color: #aaaaaa;
+    font-style: italic;
+}
