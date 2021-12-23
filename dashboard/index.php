@@ -55,7 +55,7 @@ $title = $_SESSION["displayName"];
         </div>
     </div>
 <?php endforeach; ?>
-<?php if ($count($groups)): ?>
+<?php if (count($groups) == 0): ?>
     Vous n'êtes ajouté sur aucun tirage 💔
 <?php endif; ?>
 <?php $content = ob_get_clean(); ?>
